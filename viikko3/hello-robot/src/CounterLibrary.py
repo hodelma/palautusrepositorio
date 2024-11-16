@@ -16,3 +16,9 @@ class CounterLibrary:
         int_expected = int(expected)
         if self._counter.value != int_expected:
             raise AssertionError(f"{self._counter.value} != {int_expected}")
+    
+    def reset_counter(self,amount=None):
+        if amount is None:
+            self._counter.value = 0
+        else:
+            self._counter.increase(amount)
