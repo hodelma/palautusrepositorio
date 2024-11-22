@@ -1,8 +1,9 @@
 cache__
 *.py[cod]
-*Zone.Identifier
+*:Zone.Identifier
 .vscode
 .DS_Store
 __pycache__
 *.py[cod]
 *$py.class
+*Zone.Identifier
